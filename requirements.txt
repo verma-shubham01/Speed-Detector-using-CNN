@@ -6,4 +6,4 @@ numpy==1.19.5
 Flask==2.0.1
 Werkzeug==2.0.1
 Flask-Debug==0.4.3
-Python==3.6.5 
+Python==3.11. 0
