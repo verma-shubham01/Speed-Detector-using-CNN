@@ -4,9 +4,7 @@
 
 ### Description:
 
-VISD extracts vehicle information like License Plate number, Manufacturer and colour from a video and provides this data in the form of a CSV file. VISD can also perform vehicle speed detection on a video. VISD extracts vehicle information by performing vehicle detection, license plate detection ,logo detection and color detection on frames extracted from the video. Vehicle Detection,license plate detection and logo detection are done using YOLOv4 and color detection is done using pixel method.
-Another important feature of VSID is speed detection which is performed using Haarcascade Classifier.
-All these features of VSID are provided to the user using a Web Application which is created using Flask (Screenshots included below).
+From a video, VISD extracts vehicle details such the colour, manufacturer, and licence plate number, and then gives this information in the form of a CSV file. Vehicle speed detection is another function of VISD that may be applied to video. When video frames are taken from a video, VISD analyses them to identify vehicles, licence plates, logos, and colours. YOLOv4 is used for vehicle detection, licence plate detection, logo detection, and logo detection. Pixel technique is used for colour detection. Speed detection using the Haarcascade Classifier is a key component of VSID. Through a Web Application made with Flask, all of these VSID functionalities are made available to the user (Screenshots included below).
 
 ### How To Run?
 
